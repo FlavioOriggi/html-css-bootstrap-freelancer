@@ -27,8 +27,22 @@
 }
 
 /* portfolio */
-.contenitor-portfolio{
-    height: 800px;
+.title-portfolio{
+    height: 100px;
+}
+
+.contenitor-icon{
+    background-color: yellow;
+    width: 70%;
+    height: 700px;   
+}
+
+.content-icon{
+    height: 200px;
+    width: 350px;
+    background-color: purple;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 /* about */
