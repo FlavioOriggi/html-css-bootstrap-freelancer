@@ -8,9 +8,15 @@
     background-color: #2c3e50;
 }
 
+.c-bludark{
+    color: #2c3e50;
+}
+
+
 .bg-green{
     background-color: #1abc9c;
 }
+
 
 
 
@@ -26,23 +32,47 @@
     height: 600px;
 }
 
+.line-star{   
+    width: 100px;
+    height: 5px;
+    border-radius: 10px;
+}
+
+.symbol-star{
+    margin: 0 30px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+
+
 /* portfolio */
-.title-portfolio{
-    height: 100px;
-}
-
-.contenitor-icon{
+.portofolio{
     background-color: yellow;
-    width: 70%;
-    height: 700px;   
+    width: 100%;
+    padding: 50px 0;       
 }
 
-.content-icon{
-    height: 200px;
-    width: 350px;
+.title-portfolio{
+    height: 50px;
+}
+
+
+
+.contenent-icon{
+    background-color: blue;
+    width: 100%;
+    
+     
+}
+
+.icon-img{
+    height: 250px;  
+    width: 95%;  
     background-color: purple;
     border: 1px solid black;
     border-radius: 10px;
+    margin:10px
 }
 
 /* about */
@@ -63,9 +93,12 @@
 
 
 /* footer */
+.up-footer{
+    background-color: #3a546d;
+}
+
 .content-up-footer{
     height: 230px;
-    background-color: #3a546d;
 }
 
 .content-down-footer{
