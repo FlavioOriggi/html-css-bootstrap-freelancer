@@ -63,7 +63,6 @@
 }
 
 
-
 /* portfolio */
 .portofolio{
     background-color: yellow;
@@ -72,11 +71,6 @@
 
 .title-portfolio{
     height: 50px;
-}
-
-.contenent-icon{
-    background-color: blue;
-    width: 100%;      
 }
 
 .icon-img{
@@ -90,8 +84,39 @@
 
 /* about */
 .contenitor-about{
-    height: 500px;
+    background-color: wheat;
+    height: 400px;
+    padding: 0 100px;
 }
+
+.item-testo-about{
+    height: 175px;  
+    width: 95%;  
+    background-color: rgb(216, 129, 216);    
+    border-radius: 10px;
+    margin:10px
+}
+
+
+
+
+.btn-download{
+    border: 2px solid white ;
+    border-radius: 10px;
+    height: 45px;
+    width: 160px;
+    font-size: 20px;
+    text-decoration: none; 
+    color: white;
+
+}
+
+.btn-download a{
+    text-decoration: none; 
+    color: white;   
+}
+
+
 
 /* contact */
 .contenitor-contact{
