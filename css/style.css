@@ -24,20 +24,26 @@
     background-color: #1abc9c;
 }
 
-i{
-    color: white;
+h3{
+    font-size: 3.75rem;
+    font-weight: bold;    
+}
+
+.title-portfolio,
+.title-contact h3{
+    color:#333333
 }
 
 
 
-
-/* sezione header */
+/* --------- SEZIONE HEADER --------- */
 .nav-bar{
     height: 80px;
     background-color: thistle;
 }
 
 
+/* --------- SEZIONE PRINCIPALE --------- */
 
 /* jumbotron */
 .jumbo{
@@ -73,7 +79,7 @@ i{
 }
 
 .title-portfolio{
-    height: 50px;
+    height: 70px;
 }
 
 .icon-img{
@@ -117,20 +123,22 @@ i{
 }
 
 
-
 /* contact */
 .contenitor-contact{
     height: 700px;
 }
 
+.tag-imput{
+    background-color: lightgray;
+    width: 100%;
+    height: 600px;
+}
 
 
 
+/* --------- SEZIONE FOOTER --------- */
 
-
-
-
-/* FOOTER */
+/* sezione superiore */
 .up-footer{
     background-color: #3a546d;
 }
@@ -147,6 +155,7 @@ i{
     padding: 40px 10px;     
 }
 
+/* sezione inferiore */
 .content-down-footer{
     height: 100px;
 }
