@@ -1,7 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 0;    
 }
 
 
@@ -89,12 +88,32 @@ h1{
 }
 
 /* about */
-.item-testo-about{
-    height: 175px;  
-    width: 95%;  
+.item-testo-about-sx{      
+    width: 100%;  
+    background-color: rgb(216, 129, 216);    
+    border-radius: 10px;      
+} 
+
+.item-testo-about-sx h5{
+    font-size: 20px;
+    padding-left: 100px;
+    line-height: 25px;
+    padding-right: 5px;    
+}
+
+.item-testo-about-dx{      
+    width: 100%;  
     background-color: rgb(216, 129, 216);    
     border-radius: 10px;    
 }
+
+.item-testo-about-dx h5{
+    font-size: 20px;
+    padding-right: 100px;
+    line-height: 25px;
+    padding-left: 5px;
+}
+
 
 /* bottone */
 .btn-download{
@@ -188,14 +207,21 @@ h1{
     
     .symbol-star{
         margin: 0 10px;
-    }
-
-
-    .testo-about{
-        
-    }
-
+    }  
     
+    .item-testo-about-sx h5{
+        font-size: 20px;
+        padding-left: 50px;
+        line-height: 20px;
+        padding-right: 50px;    
+    }
+
+    .item-testo-about-dx h5{
+        font-size: 20px;
+        padding-right: 50px;
+        line-height: 20px;
+        padding-left: 50px;
+    }
 
     
 }
@@ -226,16 +252,11 @@ h1{
         
     }
 
-    /* .item-up-footer{
-        padding: 20px 5px;
-        min-width: 399px;
-        height: 100%;            
+    .item-up-footer{
+        padding: 30px 0px;                  
     }
 
-    .item-up-footer p{
-        font-size: 15px;
-        
-    } */
+    
 
 }
 
@@ -261,22 +282,13 @@ h1{
     
     .symbol-star{
         margin: 10px 30px;
-    }
+    }   
 
-
-    .testo-about{
-        
-    }
-
-    /* .item-up-footer{
-        padding: 20px 5px;
-        min-width: 399px;
-        height: 100%;            
-    }
-
-    .item-up-footer p{
-        font-size: 15px;
-        
-    } */
+    .item-testo-about-sx{              
+        font-size: 22px;
+        padding-left: 100px;
+        line-height: 25px;
+        padding-right: 5px;
+    } 
 
 }
