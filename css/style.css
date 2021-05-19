@@ -4,24 +4,29 @@
     box-sizing: border-box;
 }
 
+
+/* —————— COMMON —————— */
 .bcg-bludark{
     background-color: #2c3e50;
-}
-
-.bcg-white{
-    background-color: white;
 }
 
 .c-bludark{
     color: #2c3e50;
 }
 
-.c-white{
-    color: white;
-}
-
 .bg-green{
     background-color: #1abc9c;
+}
+
+.line-star{      
+    width: 175px;
+    height: 4px;
+    border-radius: 10px;
+}
+
+.symbol-star{
+    margin: 20px 30px;    
+    font-size: 30px;
 }
 
 h3{
@@ -30,7 +35,7 @@ h3{
 }
 
 h4{
-    font-size: 25px
+    font-size: 25px;    
 }
 
 .title-portfolio,
@@ -50,29 +55,13 @@ h4{
 /* —————— SEZIONE PRINCIPALE —————— */
 
 /* jumbotron */
-.jumbo{
-    background-color: tomato;
-    height: 500px;
-}
-
-.line-star{      
-    width: 175px;
-    height: 4px;
-    border-radius: 10px;
-}
-
-.symbol-star{
-    margin: 0 30px;
-    margin-bottom: 10px;
-    font-size: 30px;
-}
-
 .item-img-jumbo{
     width: 20%;
 }
 
-.title-jumbo h1{
+h1{
     font-size: 4.5rem;
+    margin-top: 10px;
 }
 
 
@@ -100,12 +89,6 @@ h4{
 }
 
 /* about */
-.contenitor-about{
-    background-color: wheat;
-    height: 400px;
-    padding: 0 100px;
-}
-
 .item-testo-about{
     height: 175px;  
     width: 95%;  
@@ -155,14 +138,28 @@ h4{
 }
 
 .item-up-footer{
-    background-color: yellowgreen;
-    width: 100%;
+    background-color: yellowgreen;    
     height: 200px;  
-    border: 1px solid black;    
+    border: 1px solid black; 
+    padding: 30px 50px;   
 }
 
 .item-up-footer p{
-    font-size: 22px;
+    font-size: 19px;    
+}
+
+.item-up-footer i{    
+    border-radius: 50%;
+    border: 2px solid white;
+    height: 40px;
+    width: 40px; 
+    margin: 0 5px; 
+    line-height: 36px; 
+    font-size: 20px;
+}
+
+.blck-dx-footer span{
+    color: #1abc9c;
 }
 
 /* sezione inferiore */
@@ -172,10 +169,17 @@ h4{
 
 /* —————— MEDIA QUERIES —————— */
 
-@media screen and (max-width: 420px) {
+@media screen and (min-width: 420px) {
 
+    h1{
+        font-size: 2.5rem;
+    }
     h3{
         font-size: 1.75rem;
+    }
+
+    h4{
+        font-size: 20px
     }
     
     .line-star{      
@@ -186,5 +190,93 @@ h4{
         margin: 0 10px;
     }
 
+
+    .testo-about{
+        
+    }
+
+    
+
+    
+}
+
+@media screen and (min-width: 768px) {
+
+    /* h1{
+        font-size: 2.5rem;
+    }
+    h3{
+        font-size: 1.75rem;
+    }
+
+    h4{
+        font-size: 20px
+    }
+     */
+    .line-star{      
+        width: 150px;        
+    }
+    
+    .symbol-star{
+        margin: 0 10px;
+    }
+
+
+    .testo-about{
+        
+    }
+
+    /* .item-up-footer{
+        padding: 20px 5px;
+        min-width: 399px;
+        height: 100%;            
+    }
+
+    .item-up-footer p{
+        font-size: 15px;
+        
+    } */
+
+}
+
+
+@media screen and (min-width: 992px) {
+
+    h1{
+        font-size: 4.5rem;
+    }
+
+    h3{
+        font-size: 3.75rem;
+        font-weight: bold;    
+    }
+    
+    h4{
+        font-size: 25px;    
+    }
+    
+    .line-star{      
+        width: 175px;        
+    }
+    
+    .symbol-star{
+        margin: 10px 30px;
+    }
+
+
+    .testo-about{
+        
+    }
+
+    /* .item-up-footer{
+        padding: 20px 5px;
+        min-width: 399px;
+        height: 100%;            
+    }
+
+    .item-up-footer p{
+        font-size: 15px;
+        
+    } */
 
 }
