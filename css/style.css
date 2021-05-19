@@ -29,7 +29,7 @@
 }
 
 h3{
-    font-size: 3.75rem;
+    font-size: 4.75rem;
     font-weight: bold;    
 }
 
@@ -88,31 +88,32 @@ h1{
 }
 
 /* about */
-.item-testo-about-sx{      
-    width: 100%;  
-    background-color: rgb(216, 129, 216);    
-    border-radius: 10px;      
-} 
-
-.item-testo-about-sx h5{
-    font-size: 20px;
-    padding-left: 100px;
-    line-height: 25px;
-    padding-right: 5px;    
+.clndadue{
+    background-color: tomato;
+    width: 100%; 
 }
 
-.item-testo-about-dx{      
+.item-testo-about{      
+    width: 100%;  
+    background-color: rgb(216, 129, 216);            
+} 
+
+.item-testo-about h5{
+    font-size: 2.25rem;
+}
+
+/* .item-testo-about-dx{      
     width: 100%;  
     background-color: rgb(216, 129, 216);    
     border-radius: 10px;    
-}
+} */
 
-.item-testo-about-dx h5{
+/* .item-testo-about-dx h5{
     font-size: 20px;
-    padding-right: 100px;
+    padding-right: 120px;
     line-height: 25px;
-    padding-left: 5px;
-}
+    
+} */
 
 
 /* bottone */
@@ -209,7 +210,7 @@ h1{
         margin: 0 10px;
     }  
     
-    .item-testo-about-sx h5{
+    /* .item-testo-about-sx h5{
         font-size: 20px;
         padding-left: 50px;
         line-height: 20px;
@@ -221,7 +222,7 @@ h1{
         padding-right: 50px;
         line-height: 20px;
         padding-left: 50px;
-    }
+    } */
 
     
 }
@@ -284,11 +285,19 @@ h1{
         margin: 10px 30px;
     }   
 
-    .item-testo-about-sx{              
+    /* .item-testo-about-sx{              
         font-size: 22px;
         padding-left: 100px;
         line-height: 25px;
-        padding-right: 5px;
+        
     } 
+
+    .item-testo-about-dx{              
+        font-size: 22px;
+        
+        line-height: 25px;
+        padding-right: 100px;
+    }  */
+
 
 }
